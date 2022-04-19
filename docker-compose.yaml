@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: npm start
+    volumes:
+      - ./src:/usr/app/
+      - /data/app/node-app
+    ports:
+      - 8081:8081
