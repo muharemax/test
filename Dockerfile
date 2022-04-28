@@ -5,4 +5,4 @@ WORKDIR /data/app
 RUN git clone https://github.com/muharemax/test /data/app
 RUN npm install
 EXPOSE 4545
-CMD [ "node", "index.js" ]
+#CMD [ "node", "index.js" ]
