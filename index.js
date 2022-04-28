@@ -1,8 +1,11 @@
 const express = require('express');
 const app = express();
-const port = 4545;
+// Constants
+const PORT = 4545;
+const HOST = '0.0.0.0';
 
 app.get('/api/health', (req, res) => 
   res.json({ 'status': 'ok' }));
 
-app.listen(port, () => console.log(`Node app listening on port ${port}!`))
+app.listen(PORT, HOST);
+console.log(`Running on http://${HOST}:${PORT}`);
