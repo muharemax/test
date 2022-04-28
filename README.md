@@ -11,7 +11,7 @@ The following is a list of requirements:
 This is a simple node.js based app that exposes following endpoints:
 
 ```
-GET /node/api/v1/result
+GET /api/health
 ```
 
 This endpoint returns the following JSON:
