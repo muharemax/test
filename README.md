@@ -23,7 +23,6 @@ returns the following JSON:
 }
 ```
 
-
 2. Second endpoint
 
 ```
@@ -36,6 +35,12 @@ returns a JSON payload containing the transformed input `word` as follows:
   - Any digit must be inverted with its complementary ('9' becomes '0', '0' becomes '9', '4' becomes '5', and so on...)
   - Any other character should be left as is
   - A final transformation must be applied so that the whole string is reversed. ('foo' ⇒ 'oof', 'bar' ⇒ 'rab')
+
+```json
+{
+  "transformed": "47RAbOoF"
+}
+```
 
 ## Running
 
