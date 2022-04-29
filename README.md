@@ -27,7 +27,7 @@ This endpoint returns the following JSON:
 GET /api/mirror?word={word}
 ```
 
-This endpoint returns a JSON payload containing the transformed input word as follows:
+This endpoint returns a JSON payload containing the transformed input `code(word)`word as follows:
   i.   Any lowercase letter must be transformed to be uppercase
   ii.  Any uppercase letter must be transformed to be lowercase
   iii. Any digit must be inverted with its complementary ('9' becomes '0', '0' becomes '9', '4' becomes '5', and so on...)
