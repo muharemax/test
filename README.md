@@ -1,4 +1,4 @@
-# Simple NodeJs App
+# Simple NodeJS App
 
 ## Requirements
 
